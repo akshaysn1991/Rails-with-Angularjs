@@ -1,0 +1,88 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ *= require bootstrap_and_overrides.css.scss
+ */
+
+ .span2
+ {
+ 	width: 8.53%;
+    margin-top: 0px;
+    margin-right: -18px;
+    /*background: #A8A8A8;*/
+
+ }
+  
+  .span10
+  {
+  	background: none repeat scroll 0 0 #F1F1F1;
+  }
+ .row-fluid
+ {
+     margin-left: 9px;
+ }
+ .navbar {
+    background-color: #A8A8A8;
+    margin-bottom: 20px;
+    min-height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-color: white;
+}
+
+.span5 {
+	
+	background: #F1F1F1;
+	padding-left: 120px;
+  position: relative;
+  margin-right: 60px;
+	padding-right: 100px;
+	width: 300px;
+  font-size: 16px;
+  line-height: 35.5px;
+
+}
+.span4
+{   
+	background-color: #F1F1F1;
+	padding-bottom: 20px;
+}
+ .span3
+{   
+	background-color: #F1F1F1;
+  position: relative;
+  width: 500px;
+}
+ .Signup-button
+ {
+
+ }
+ .search-query
+ {
+    font-family: status-bar;
+    font-size: larger;
+ }
+ .homebody {
+    color: #2A2A2A;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 39px;
+}
+.signupstyle
+{
+  background-color: #F1F1F1;
+  font-size: 16px;
+    line-height: 39px;
+    width:400px;
+
+}

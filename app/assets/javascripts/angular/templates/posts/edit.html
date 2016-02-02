@@ -1,0 +1,16 @@
+<center>
+<div>
+    <div>
+        <h3>Update Post</h3>
+    </div>
+        <form id="post_form" ng-submit="updatePost()">
+            <label>Name</label>
+            <input type="text" id="edit_post_name" name="PostName" value="{{post.name}}" ng-model="newPostName"></br>
+            <label>Body</label>
+            <input type="text" id="edit_post_body" name="PostBody" value="{{post.body}}" ng-model="newPostBody"></br>
+            </br>
+            <input type="submit" id="post_submit_btn" value="Update" class="btn btn-primary">
+            <a href="/#/posts" class="btn btn-default">Back</a>
+        </form>        
+</div>
+</center>

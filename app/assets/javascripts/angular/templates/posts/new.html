@@ -1,0 +1,62 @@
+<!-- <center>
+<div>
+    <div>
+        <h3>Add New Post</h3>
+    </div>
+        <form id="post_form" ng-submit="addPost()">
+            <label>Name</label>
+            <input type="text" id="new_post_name" name="PostName" ng-model="newPostName" required></br>
+            <label>Body</label>
+            <input type="text" id="new_post_body" name="PostBody" ng-model="newPostBody" required></br>
+            </br>
+            <input type="submit" id="post_submit_btn" value="Add Post" class="btn btn-primary">
+            <a href="/#/posts" class="btn btn-default">Back</a>
+        </form>      
+</div>
+<center> -->
+
+
+
+
+
+
+
+
+
+
+<center>
+<div class="row">
+    
+        <form method="post" class="form-horizontal" id="post_form" accept-charset="utf-8" ng-submit="addPost()">
+            <div class="control-group">
+                <label for="name" class="control-label">   
+                   Name
+                </label>              
+
+                <div class="controls">
+                    <input name="PostName" type="textarea rows="4" cols="50"" value="" id="new_post_name" ng-model="newPostName">
+                    <span class="help-inline"> </span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label for="body" class="control-label"> 
+                    Body
+                </label>
+                <div class="controls"><input name="PostBody" placeholder=" " type="text" value="" id="post_submit_btn"  ng-model="newPostBody"<span class="help-inline"> </span>
+                </div>
+            </div></br>
+
+
+            
+            
+           
+
+            <div class="form-actions">
+                <button type="submit" class="btn btn-large btn-primary">Create Post</button>
+            </div>
+        </form>
+    
+</div>
+</center>
+

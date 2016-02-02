@@ -1,0 +1,43 @@
+<script type="text/javascript">
+// alert("in application..............")
+</script>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html ng-app="contactapp">
+<head>
+  <title>AngularRailsTest</title>
+ <!--  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js" rel="stylesheet">
+ -->
+ 
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  
+</head>
+<body>
+
+<%= render 'common/header' %>
+
+    <!-- <p class="notice"><%= notice %></p>
+
+    <p class="alert"><%= alert %></p> -->
+
+	<%= yield %>
+
+	
+
+
+
+</body>
+</html>

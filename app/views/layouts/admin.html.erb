@@ -1,0 +1,105 @@
+<script type="text/javascript">
+// alert("in admin layout..............")
+</script>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html ng-app="contactapp">
+<head>
+  <title>AngularTrialProject</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  
+  <!-- <script src="bootstrap/bootstrap.min.js"></script> -->
+  <%= csrf_meta_tags %>
+  
+</head>
+<body>
+  
+    <%= render 'common/header' %>
+
+
+    <!-- <p class="notice"><%= notice %></p>
+
+       <p class="alert"><%= alert %></p>
+ -->
+
+
+
+           
+    <div class="container-fluid">
+      <div class="row-fluid">
+          <div class="span2">
+          
+            
+            <div class="list-group">
+                <a href="/#/dashboard" class="list-group-item active">
+                  Dashboard
+                </a>
+                 <a href="/#/tasks" class="list-group-item">Tasks
+                </a>
+                <a href="/#/posts" class="list-group-item">Posts
+                </a>
+                <a href="#" class="list-group-item">menu2
+                </a>
+                <a href="#" class="list-group-item">menu3
+                </a>
+                
+            </div>
+
+
+
+
+
+
+            <!-- <div class="sidebar-nav">
+  <div class="well" style="width:300px; padding: 8px 0;">
+    <ul class="nav nav-list"> 
+      <li class="nav-header">Main</li>        
+      <li class="active"><a href="index"><i class="icon-home"></i> Dashboard</a></li>
+      <li><a href="#"><i class="icon-edit"></i> Add Blog Post</a></li>
+          <li><a href="#"><i class="icon-calendar"></i> Calendar</a></li>
+      <li><a href="#"><i class="icon-user"></i> Members</a></li>
+      <li><a href="#"><i class="icon-comment"></i> Comments</a></li>
+      <li><a href="#"><i class="icon-picture"></i> Gallery</a></li>
+    </ul>
+  </div>
+</div> -->
+
+
+
+
+
+          </div>
+              <div class="span10">
+                  <div ng-view></div>  
+                                                              
+              </div>
+      </div>
+    </div>  
+
+
+ 
+
+
+    
+        
+
+
+
+
+
+
+ 
+
+
+</body>
+</html>

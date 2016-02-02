@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Task name:</b>
+  <%= @task.task_name %>
+</p>
+
+<p>
+  <b>Project:</b>
+  <%= @task.project %>
+</p>
+
+<p>
+  <b>Task type:</b>
+  <%= @task.task_type %>
+</p>
+
+<p>
+  <b>Eta hrs:</b>
+  <%= @task.eta_hrs %>
+</p>
+
+<p>
+  <b>Actual hrs:</b>
+  <%= @task.actual_hrs %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @task.status %>
+</p>
+
+<p>
+  <b>Parent:</b>
+  <%= @task.parent_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_task_path(@task) %> |
+<%= link_to 'Back', tasks_path %>

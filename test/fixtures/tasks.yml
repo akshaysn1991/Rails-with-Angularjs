@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  task_name: MyString
+  project: MyString
+  task_type: MyString
+  eta_hrs: 1.5
+  actual_hrs: 1.5
+  status: MyString
+  parent_id: 1
+
+two:
+  task_name: MyString
+  project: MyString
+  task_type: MyString
+  eta_hrs: 1.5
+  actual_hrs: 1.5
+  status: MyString
+  parent_id: 1

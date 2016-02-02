@@ -1,0 +1,30 @@
+<center>
+<div>
+    <div>
+        <h3>Update Task</h3>
+    </div>
+        <form id="task_form" ng-submit="updateTask()">
+            <label>Task Name</label>
+            <input type="text" id="edit_task_name" value="{{task.task_name}}" name="TaskName" ng-model="TaskName"></br>
+            <label>Project</label>
+            <input type="text" id="edit_project" value="{{task.project}}" name="Project" ng-model="Project" ></br>
+            <label>Task Type</label>
+            <input type="text" id="edit_task_type"value="{{task.task_type}}"  name="TaskType" ng-model="TaskType"></br>
+            <label>ETA Hours</label>
+            <input type="text" id="edit_eta_hrs" value="{{task.eta_hrs}}" name="ETAHours" ng-model="ETAHours"></br>
+            <label>Actual Hours</label>
+            <input type="text" id="edit_actual_hrs" value="{{task.actual_hrs}}"  name="ActualHours" ng-model="ActualHours"></br>
+            <label>Actual Hours</label>
+            <select ng-model="Status" id ="edit_status" value="{{task.status}}" bs-selectbox>
+            <option value="Pending">Pending</option>
+            <option value="Done">Done</option>
+            <option value="OnProgress">OnProgress</option>
+           </select></br>
+            
+
+            <input type="submit" id="task_submit_btn" value="Update" class="btn btn-primary">
+            <a href="/#/tasks" class="btn btn-default">Back</a>
+        </form>      
+</div>
+</center>
+
